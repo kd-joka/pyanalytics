@@ -61,7 +61,7 @@ type(str1)
 print(str1)
 str2="Yash"
 str2.lower()
-dict?
+dict1
 dir(str)
 #%% - Sequence
 #sequence - tuple and list are used
@@ -71,7 +71,14 @@ for i in list1:
     print(i)
   
 for i in list1:    print(i)
-for i in list1:    print('Dhiraj ', i + 6)
+for i in list1:    print('Dhiraj ', i + 6) #cannot be executed has it also contains string and character therefore
+list2=[1,2,3,4]
+for i in list2: print('Kuldeep',i+6)
+list2[0]
+list2[3]
+
+list3=['Kuldeep','Ravindra','Karthik']
+for i in list3: print(i)
 
 tuple1
 list5 = ['a',1]
